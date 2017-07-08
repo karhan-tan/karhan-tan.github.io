@@ -1,0 +1,234 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0051)http://vision.ai.uiuc.edu/~tankh/Camera/camera.html -->
+<HTML><HEAD><TITLE>Multiview Mirror Pyramid Panoramic Cameras</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META 
+content="panoramic imaging, mirror pyramid, video capture, multiview camera." 
+name=KeyWords>
+<META content="Kar-Han Tan" name=Author>
+<META content="MSHTML 6.00.2800.1276" name=GENERATOR>
+<META content="text/html; charset=iso-8859-1" name=Content-Type></HEAD>
+<BODY text=#000000 vLink=#6876e7 aLink=#0000ff link=#0000ff 
+bgColor=#ffffff>&nbsp; 
+<CENTER>
+<TABLE cellSpacing=0 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <CENTER><A name=top></A><IMG height=37 
+      src="camera_files/Vision_Lab_Title_Slim.jpeg" width=640 
+    border=0></CENTER></TD></TR>
+  <TR>
+    <TD><FONT color=#006699><A href="http://vision.ai.uiuc.edu/">Home</A> &gt; 
+      <A href="http://vision.ai.uiuc.edu/themes/theme2.htm">II. New Imaging 
+      Methodologies and Sensors</A> &gt; Multiview Panoramic Camera 
+  </FONT></TD></TR></TBODY></TABLE></CENTER><BR>&nbsp; 
+<CENTER>
+<H1><FONT color=#003399 size=5>Multiview Mirror Pyramid Panoramic 
+Cameras</FONT></H1></CENTER>
+<CENTER>
+<TABLE cellSpacing=0 cols=2 cellPadding=0 width=528 border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=178>
+      <CENTER><A href="http://vision.ai.uiuc.edu/~tankh">Kar-Han Tan</A> 
+      <BR>Department of Computer Science</CENTER></TD>
+    <TD vAlign=top width=110>
+      <CENTER><A 
+      href="http://www.optics.arizona.edu/faculty/Resumes/Hua.htm">Hong Hua</A> 
+      <BR>Beckman Fellow</CENTER></TD>
+    <TD vAlign=top width=234>
+      <CENTER><A href="http://www.ece.uiuc.edu/fachtml/ahuja.html">Narendra 
+      Ahuja</A> <BR>Department of Electrical and Computer 
+  Engineering</CENTER></TD></TR></TBODY></TABLE></CENTER>
+<CENTER>
+<P>Beckman Institute for Advanced Science and Technology <BR>University of 
+Illinois at Urbana-Champaign</CENTER>
+<P><BR>
+<CENTER>
+<CENTER>
+<TABLE cellSpacing=1 cellPadding=0 width=600 border=0>
+  <TBODY>
+  <TR>
+    <TD align=left>
+      <H2 align=left><A name=Introduction></A><FONT color=#003399 
+      size=4>Introduction</FONT></H2>
+      <P align=left>Panoramic images and video are useful in many applications 
+      such as special effects, immersive virtual reality environments, and video 
+      games. Among the numerous devices proposed for capturing panoramas, mirror 
+      pyramid-based camera systems are a promising approach for video rate 
+      capture, as they offer single-viewpoint imaging, and use only flat mirrors 
+      that are easier to produce than curved mirrors. To date, the designs 
+      proposed typically capture panoramas from a single viewpoint. 
+      <P align=left> </P></TD></TR></TBODY></TABLE></CENTER>
+<TABLE cellSpacing=0 cellPadding=0 width=600>
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><FONT color=#003399 size=4>Mirror Pyramid Cameras</FONT> </H2></TD>
+    <TD>
+      <P align=right>[<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Camera/camera.html#top">back to 
+      top</A>] </P></TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <P>A mirror pyramid consists of a set of flat mirror faces arranged around 
+      an axis of symmetry, inclined to form a pyramid. By strategically 
+      positioning a number of conventional cameras around a mirror pyramid, the 
+      viewpoints for the individual cameras’ mirror images can be colocated at a 
+      single point within the pyramid, effectively forming a virtual camera with 
+      a wide field of view.</P>
+      <P>Mirror pyramid-based panoramic cameras have a number of attractive 
+      properties, including&nbsp;</P>
+      <UL>
+        <LI>single-viewpoint imaging,&nbsp; 
+        <LI>high resolution, and&nbsp; 
+        <LI>video rate capture.&nbsp; </LI></UL>
+      <P>Currently existing designs realize a single viewpoint within each 
+      mirror pyramid. In order to capture panoramas from multiple viewpoints 
+      with these designs, the entire physical setup would need to be relocated 
+      or duplicated. The former solution lacks the capability of video rate 
+      imaging, and the latter leads to bulky designs due to the multiple mirror 
+      pyramids.</P>
+      <P>In our paper we proposed a method for generalizing existing designs 
+      such that multiple viewpoints can be created in a single mirror pyramid. 
+      This enables simultaneous multiview panoramic video rate imaging with a 
+      compact design. </P>
+      <P> </P></TD></TR></TBODY></TABLE>
+<TABLE width=600>
+  <TBODY>
+  <TR>
+    <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-a.jpeg" 
+      width=153 border=0> </TD>
+    <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-b.jpeg" 
+      width=158 border=0> </TD>
+    <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-c.jpeg" 
+      width=153 border=0> </TD></TR>
+  <TR>
+    <TD align=middle>(a) </TD>
+    <TD align=middle>(b) </TD>
+    <TD align=middle>(c) </TD></TR>
+  <TR>
+    <TD align=left colSpan=3>Figure 1. Variation in the physical camera 
+      position with viewpoint position. (a) Viewpoint is centered in four-sided 
+      pyramid, shown with the corresponding eight camera positions. (b) 
+      Translated viewpoints marked A, B, and C are shown with correspondingly 
+      marked physical camera positions. (c) Same as (b), but with a mirror 
+      pyramid with a large number of faces to show how the shape changes as the 
+      viewpoint translates. 
+      <P>&nbsp;</P></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=600>
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><A name=Experiments></A><FONT color=#003399 size=4>Experimental 
+      Setup</FONT></H2></TD></CENTER>
+    <TD>
+      <P align=right>[<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Camera/camera.html#top">back to 
+      top</A>] </P></TD></TR>
+  <CENTER>
+  <TR>
+    <TD align=middle><IMG height=155 src="camera_files/spam_design.jpeg" 
+      width=250 border=0>
+      <P></P></TD>
+    <TD align=middle><IMG height=290 src="camera_files/spam_setup.jpeg" 
+      width=250 border=0>&nbsp; </TD></TR>
+  <TR>
+    <TD align=middle>(a) </TD>
+    <CENTER>
+    <TD align=middle>(b) </TD>
+  <TR>
+    <TD align=left colSpan=2>
+      <P align=left>Figure 2. The experimental multiview panoramic camera. (a) 
+      The conceptual design. (b) The physical implementation utilizing four 
+      cameras and two mirror faces to produce two views. 
+      <P align=left>&nbsp;</P></TD></TR></TBODY></TABLE>
+<TABLE height=433 cellSpacing=2 cols=2 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><A name=Results></A><FONT color=#003399 size=4>Results</FONT></H2></TD>
+    <TD></TD>
+    <TD align=right>
+      <P align=right>[<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Camera/camera.html#top">back to 
+      top</A>] </P></TD></TR>
+  <TR>
+    <TD vAlign=bottom align=middle height=152><IMG height=150 
+      src="camera_files/cam1_corrected.jpeg" width=200 border=0></TD>
+    <TD vAlign=bottom align=middle height=152><IMG height=150 
+      src="camera_files/cam2_corrected.jpeg" width=200 border=0></TD>
+    <TD vAlign=bottom align=middle height=304 rowSpan=2><IMG height=300 
+      src="camera_files/mosaiced_views.jpeg" width=259 border=0></TD></TR>
+  <TR>
+    <TD align=middle height=152><IMG height=150 
+      src="camera_files/cam3_corrected.jpeg" width=200 border=0> </TD>
+    <TD align=middle height=152><IMG height=150 
+      src="camera_files/cam4_corrected.jpeg" width=200 border=0> </TD></TR>
+  <TR>
+    <TD align=middle colSpan=2 height=24>(a)</TD>
+    <TD vAlign=bottom align=middle height=24>(b)</TD></TR>
+  <TR>
+    <TD align=middle colSpan=3 height=18>
+      <P align=left>Figure 3. Experimental results. (a) Images captured by the 
+      four conventional cameras, after correcting for radial distortion. (b) The 
+      mosaiced views.</P></TD></TR></TBODY></TABLE>&nbsp;
+<TABLE cellSpacing=0 cols=1 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cols=2 cellPadding=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD>
+            <H2><A name=References></A><FONT color=#003399 
+            size=4>Reference</FONT></H2></TD>
+          <TD vAlign=top>
+            <DIV align=right>[<A 
+            href="http://vision.ai.uiuc.edu/~tankh/Camera/camera.html#top">back 
+            to top</A>]</DIV></TD></TR></TBODY></TABLE>
+      <P>Kar-Han Tan, Hong Hua, and Narendra Ahuja. Multiview Mirror Pyramid 
+      Cameras.<BR><B>IEEE Transactions in Pattern Analysis and Machine 
+      Intelligence</B>. To appear.<BR>Download Manuscript: [<A 
+      href="http://vision.ai.uiuc.edu/~tankh/pam_tpami_techreport.pdf">PDF</A>] 
+      </P></TD></TR></TBODY></TABLE><BR>&nbsp; 
+<CENTER>
+<TABLE cellSpacing=0 cols=1 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><A name=Contact></A><FONT color=#0043b0 size=4>Contact 
+      Information</FONT></H2>
+      <TABLE cellSpacing=0 cols=2 cellPadding=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD vAlign=top><FONT color=#000000><FONT size=+1><A 
+            href="http://vision.ai.uiuc.edu/~tankh">Kar-Han 
+            Tan</A></FONT></FONT> 
+            <P><B>e-mail</B>: <A 
+            href="mailto:tankh@vision.ai.uiuc.edu">tankh@vision.ai.uiuc.edu</A> 
+            <BR><B>Phone</B>:&nbsp; 
+            <BLOCKQUOTE>217-244-4392 (lab) <BR>217-333-1869 
+          (office)</BLOCKQUOTE></TD>
+          <TD vAlign=top></TD></TR></TBODY></TABLE><B>Address</B>:&nbsp; 
+      <BLOCKQUOTE>Beckman Institute <BR>405 N Mathews Ave <BR>Urbana IL 
+      61801</BLOCKQUOTE></TD></TR></TBODY></TABLE></CENTER><BR>&nbsp; 
+<CENTER>
+<TABLE cellSpacing=0 cols=1 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><FONT color=#003399 size=4>Acknowledgements</FONT></H2>We would like 
+      to thank Chunyu Gao and John M. Hart for their help and many helpful 
+      suggestions.</TD></TR></TBODY></TABLE></CENTER>
+<CENTER>
+<P><IMG height=37 src="camera_files/Vision_Lab_Title_Slim.jpeg" width=640 
+border=0></CENTER>
+<H4 align=center>| <A 
+href="http://vision.ai.uiuc.edu/~tankh/index.html">Home</A> | <A 
+href="http://vision.ai.uiuc.edu/~tankh/Project_Page.htm">Projects</A> | <A 
+href="http://vision.ai.uiuc.edu/~tankh/People.htm">People</A> | <A 
+href="http://vision.ai.uiuc.edu/~tankh/Publication_List.htm">Publications</A> | 
+<A href="http://vision.ai.uiuc.edu/~tankh/Pointers.htm">Links</A> | 
+</H4></CENTER></CENTER></BODY></HTML>
