@@ -30,3 +30,22 @@ Mirror pyramid-based panoramic cameras have a number of attractive
    * video rate capture.
    
 ![image1](/Pyramid/camera_files/cam1_corrected.jpeg)
+
+## Publications
+1. Kar-Han Tan, Hong Hua and N. Ahuja, "Multiview panoramic cameras using mirror pyramids," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 26, no. 7, pp. 941-946, July 2004. doi: 10.1109/TPAMI.2004.33 [PDF](/Publication/tan2004multiview.pdf) [IEEE](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1300564&isnumber=28890)
+
+2. Kar-Han Tan, H. Hua and N. Ahuja, "Multiview panoramic cameras using a mirror pyramid," Third Workshop on Omnidirectional Vision, pp. 87-93, 2002. doi: 10.1109/OMNVIS.2002.1044501 [IEEE](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1044501&isnumber=22387)
+
+## Citation
+    @ARTICLE{tan2004multiview,
+    author={Kar-Han Tan and Hong Hua and N. Ahuja},
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    title={Multiview panoramic cameras using mirror pyramids},
+    year={2004},
+    volume={26},
+    number={7},
+    pages={941-946},
+    keywords={image resolution;image sensors;mirrors;stereo image processing;video cameras;FOV;cameras mirror images;field of         view;image resolution;imaging geometry;mirror pyramid cameras;multiview panoramic cameras;optical axes;panoramic video rate imaging;planar mirror faces;sensor utilization;single viewpoint imaging;symmetry axis;video rate capture;virtual camera;Cameras;Design methodology;Geometry;High-resolution imaging;Image resolution;Mirrors;Optical imaging;Optical sensors;Prototypes;Solid modeling;Panoramic cameras;catadioptric systems;mirror pyramids;multiview panoramic imaging;omnidirectional imaging and video capture;stereoscopic cameras.;Algorithms;Artificial Intelligence;Image Enhancement;Image Interpretation, Computer-Assisted;Imaging, Three-Dimensional;Pattern Recognition, Automated;Photography},
+    doi={10.1109/TPAMI.2004.33},
+    ISSN={0162-8828},
+    month={July},}
