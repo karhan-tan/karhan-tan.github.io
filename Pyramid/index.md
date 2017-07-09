@@ -29,4 +29,4 @@ Mirror pyramid-based panoramic cameras have a number of attractive
    * high resolution, and 
    * video rate capture.
    
-![image1][/Pyramid/camera_files/cam1_corrected.jpeg]
+![image1](/Pyramid/camera_files/cam1_corrected.jpeg)
