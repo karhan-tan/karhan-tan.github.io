@@ -31,6 +31,12 @@ Mirror pyramid-based panoramic cameras have a number of attractive
    
 ![image1](/Pyramid/camera_files/cam1_corrected.jpeg)
 
+## Collaborators
+[Hong Hua](https://wp.optics.arizona.edu/3dvis/people/dr-hong-hua/)
+
+[Narendra Ahuja](http://vision.ai.illinois.edu/ahuja.html)
+
+
 ## Publications
 1. Kar-Han Tan, Hong Hua and Narendra Ahuja, "Multiview panoramic cameras using mirror pyramids," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 26, no. 7, pp. 941-946, July 2004. [DOI](http://dx.doi.org/10.1109/TPAMI.2004.33)  [PDF](/Publication/tan2004multiview.pdf)
 
