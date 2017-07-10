@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[LinkedIn](https://www.linkedin.com/in/karhantan)
+
 ## Publications
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=Fz17zgcAAAAJ)
 
