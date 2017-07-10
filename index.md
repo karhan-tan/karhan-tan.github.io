@@ -1,6 +1,11 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
+
+## Publications
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=Fz17zgcAAAAJ)
+
+[Google Patents](https://patents.google.com/?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&clustered=false&sort=new&num=100)
+
+## Inventions
+[Multiview Panoramic Camera](/Pyramid)
