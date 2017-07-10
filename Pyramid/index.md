@@ -32,13 +32,13 @@ Mirror pyramid-based panoramic cameras have a number of attractive
 ![image1](/Pyramid/camera_files/cam1_corrected.jpeg)
 
 ## Publications
-1. Kar-Han Tan, Hong Hua and N. Ahuja, "Multiview panoramic cameras using mirror pyramids," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 26, no. 7, pp. 941-946, July 2004. doi: 10.1109/TPAMI.2004.33 [PDF](/Publication/tan2004multiview.pdf) [IEEE](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1300564&isnumber=28890)
+1. Kar-Han Tan, Hong Hua and Narendra Ahuja, "Multiview panoramic cameras using mirror pyramids," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 26, no. 7, pp. 941-946, July 2004. [DOI](http://dx.doi.org/10.1109/TPAMI.2004.33)  [PDF](/Publication/tan2004multiview.pdf)
 
-2. Kar-Han Tan, H. Hua and N. Ahuja, "Multiview panoramic cameras using a mirror pyramid," Third Workshop on Omnidirectional Vision, pp. 87-93, 2002. doi: 10.1109/OMNVIS.2002.1044501 [IEEE](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1044501&isnumber=22387)
+2. Kar-Han Tan, Hong Hua and Narendra Ahuja, "Multiview panoramic cameras using a mirror pyramid," Third Workshop on Omnidirectional Vision, pp. 87-93, 2002. [DOI](http://dx.doi.org/10.1109/OMNVIS.2002.1044501)
 
 ## Citation
     @ARTICLE{tan2004multiview,
-    author={Kar-Han Tan and Hong Hua and N. Ahuja},
+    author={Kar-Han Tan and Hong Hua and Narendra Ahuja},
     journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
     title={Multiview panoramic cameras using mirror pyramids},
     year={2004},
