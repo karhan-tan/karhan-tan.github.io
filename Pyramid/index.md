@@ -41,35 +41,17 @@ such that multiple viewpoints can be created in a single mirror pyramid.
 This enables simultaneous multiview panoramic video rate imaging with a 
 compact design. 
 
-<center>
-
 ![](/Pyramid/camera_files/viewpoint-var-a.jpeg) | ![](/Pyramid/camera_files/viewpoint-var-b.jpeg) | ![](/Pyramid/camera_files/viewpoint-var-c.jpeg) 
 :------:|:------:|:------:
  (a) | (b) | (c) 
 
-</center>
-
-  <TR>
-    <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-a.jpeg" 
-      width=153 border=0> </TD>
-    <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-b.jpeg" 
-      width=158 border=0> </TD>
-    <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-c.jpeg" 
-      width=153 border=0> </TD></TR>
-  <TR>
-    <TD align=middle>(a) </TD>
-    <TD align=middle>(b) </TD>
-    <TD align=middle>(c) </TD></TR>
-  <TR>
-    <TD align=left colSpan=3>Figure 1. Variation in the physical camera 
-      position with viewpoint position. (a) Viewpoint is centered in four-sided 
-      pyramid, shown with the corresponding eight camera positions. (b) 
-      Translated viewpoints marked A, B, and C are shown with correspondingly 
-      marked physical camera positions. (c) Same as (b), but with a mirror 
-      pyramid with a large number of faces to show how the shape changes as the 
-      viewpoint translates. 
-      <P>&nbsp;</P></TD></TR
-</table>
+Figure 1. Variation in the physical camera 
+position with viewpoint position. (a) Viewpoint is centered in four-sided 
+pyramid, shown with the corresponding eight camera positions. (b) 
+Translated viewpoints marked A, B, and C are shown with correspondingly 
+marked physical camera positions. (c) Same as (b), but with a mirror 
+pyramid with a large number of faces to show how the shape changes as the 
+viewpoint translates. 
 
 ## Experiments
 
