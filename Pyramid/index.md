@@ -41,8 +41,7 @@ such that multiple viewpoints can be created in a single mirror pyramid.
 This enables simultaneous multiview panoramic video rate imaging with a 
 compact design. 
 
-<TABLE width=600>
-  <TBODY>
+<table width=600>
   <TR>
     <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-a.jpeg" 
       width=153 border=0> </TD>
@@ -62,13 +61,12 @@ compact design.
       marked physical camera positions. (c) Same as (b), but with a mirror 
       pyramid with a large number of faces to show how the shape changes as the 
       viewpoint translates. 
-      <P>&nbsp;</P></TD></TR></TBODY>
-</TABLE>
+      <P>&nbsp;</P></TD></TR
+</table>
 
 ## Experiments
 
-<TABLE cellSpacing=0 cellPadding=0 width=600>
-  <TBODY>
+<table cellSpacing=0 cellPadding=0 width=600>
   <CENTER>
   <TR>
     <TD align=middle><IMG height=155 src="camera_files/spam_design.jpeg" 
@@ -85,11 +83,10 @@ compact design.
       <P align=left>Figure 2. The experimental multiview panoramic camera. (a) 
       The conceptual design. (b) The physical implementation utilizing four 
       cameras and two mirror faces to produce two views. 
-      <P align=left>&nbsp;</P></TD></TR></TBODY>
-</TABLE>
+      <P align=left>&nbsp;</P></TD></TR>
+</table>
       
-<TABLE height=433 cellSpacing=2 cols=2 cellPadding=0 width=640>
-  <TBODY>
+<table height=433 cellSpacing=2 cols=2 cellPadding=0 width=640>
   <TR>
     <TD>
       <H2><A name=Results></A><FONT color=#003399 size=4>Results</FONT></H2></TD>
@@ -117,8 +114,8 @@ compact design.
     <TD align=middle colSpan=3 height=18>
       <P align=left>Figure 3. Experimental results. (a) Images captured by the 
       four conventional cameras, after correcting for radial distortion. (b) The 
-      mosaiced views.</P></TD></TR></TBODY>
-</TABLE>      
+      mosaiced views.</P></TD></TR>
+</table>      
 
 ## Collaborators
 [Hong Hua](https://wp.optics.arizona.edu/3dvis/people/dr-hong-hua/)
