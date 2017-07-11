@@ -57,6 +57,7 @@ viewpoint translates.
 
 ![](/Pyramid/camera_files/spam_design.jpeg) | ![](/Pyramid/camera_files/spam_setup.jpeg)
 :------:|:------:
+(a) | (b)
 
 Figure 2. The experimental multiview panoramic camera. (a) 
 The conceptual design. (b) The physical implementation utilizing four 
