@@ -100,4 +100,6 @@ Figure 4. Stitched Image Pair
     keywords={image resolution;image sensors;mirrors;stereo image processing;video cameras;FOV;cameras mirror images;field of         view;image resolution;imaging geometry;mirror pyramid cameras;multiview panoramic cameras;optical axes;panoramic video rate imaging;planar mirror faces;sensor utilization;single viewpoint imaging;symmetry axis;video rate capture;virtual camera;Cameras;Design methodology;Geometry;High-resolution imaging;Image resolution;Mirrors;Optical imaging;Optical sensors;Prototypes;Solid modeling;Panoramic cameras;catadioptric systems;mirror pyramids;multiview panoramic imaging;omnidirectional imaging and video capture;stereoscopic cameras.;Algorithms;Artificial Intelligence;Image Enhancement;Image Interpretation, Computer-Assisted;Imaging, Three-Dimensional;Pattern Recognition, Automated;Photography},
     doi={10.1109/TPAMI.2004.33},
     ISSN={0162-8828},
-    month={July},}
+    month={July},
+    note={\url{https://karhan-tan.github.io/Pyramid}}
+}
