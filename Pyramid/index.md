@@ -42,9 +42,9 @@ This enables simultaneous multiview panoramic video rate imaging with a
 compact design. 
 
 ![](/Pyramid/camera_files/viewpoint-var-a.jpeg) | ![](/Pyramid/camera_files/viewpoint-var-b.jpeg) | ![](/Pyramid/camera_files/viewpoint-var-c.jpeg) 
-:------:|:------:
+:------:|:------:|:------:
  (a) | (b) | (c) 
-:------:|:------:
+:------:|:------:|:------:
 
 
   <TR>
