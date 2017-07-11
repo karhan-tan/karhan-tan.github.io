@@ -7,6 +7,15 @@ layout: default
 
 # Multiview Mirror Pyramid Panoramic Cameras
 
+![](/Pyramid/camera_files/spam_design.jpeg) | ![](/Pyramid/camera_files/spam_setup.jpeg)
+:------:|:------:
+(a) | (b)
+
+Figure 1. The experimental multiview panoramic camera. (a) 
+The conceptual design. (b) The physical implementation utilizing four 
+cameras and two mirror faces to produce two views. 
+
+
 Panoramic images and video are useful in many applications 
 such as special effects, immersive virtual reality environments, and video 
 games. Among the numerous devices proposed for capturing panoramas, mirror 
@@ -45,7 +54,7 @@ compact design.
 :------:|:------:|:------:
  (a) | (b) | (c) 
 
-Figure 1. Variation in the physical camera 
+Figure 2. Variation in the physical camera 
 position with viewpoint position. (a) Viewpoint is centered in four-sided 
 pyramid, shown with the corresponding eight camera positions. (b) 
 Translated viewpoints marked A, B, and C are shown with correspondingly 
@@ -55,20 +64,18 @@ viewpoint translates.
 
 ## Experiments
 
-![](/Pyramid/camera_files/spam_design.jpeg) | ![](/Pyramid/camera_files/spam_setup.jpeg)
-:------:|:------:
-(a) | (b)
-
-Figure 2. The experimental multiview panoramic camera. (a) 
-The conceptual design. (b) The physical implementation utilizing four 
-cameras and two mirror faces to produce two views. 
       
 ![](/Pyramid/camera_files/cam1_corrected.jpeg) | ![](/Pyramid/camera_files/cam2_corrected.jpeg) 
 :------:|:------:
 ![](/Pyramid/camera_files/cam3_corrected.jpeg) | ![](/Pyramid/camera_files/cam4_corrected.jpeg)
 :------:|:------:
 
+Figure 3. Captured Images
+
 ![](/Pyramid/camera_files/mosaiced_views.jpeg) 
+
+Figure 4. Stitched Image Pair
+
 
 ## Collaborators
 [Hong Hua](https://wp.optics.arizona.edu/3dvis/people/dr-hong-hua/)
