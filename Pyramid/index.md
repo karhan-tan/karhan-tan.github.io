@@ -16,20 +16,109 @@ that are easier to produce than curved mirrors. To date, the designs
 proposed typically capture panoramas from a single viewpoint. 
 
 A mirror pyramid consists of a set of flat mirror faces arranged around 
-      an axis of symmetry, inclined to form a pyramid. By strategically 
-      positioning a number of conventional cameras around a mirror pyramid, the 
-      viewpoints for the individual cameras’ mirror images can be colocated at a 
-      single point within the pyramid, effectively forming a virtual camera with 
+an axis of symmetry, inclined to form a pyramid. By strategically 
+positioning a number of conventional cameras around a mirror pyramid, the 
+viewpoints for the individual cameras’ mirror images can be colocated at a 
+single point within the pyramid, effectively forming a virtual camera with 
 a wide field of view.
 
 Mirror pyramid-based panoramic cameras have a number of attractive 
-      properties, including
+properties, including
 
    * single-viewpoint imaging 
    * high resolution, and 
-   * video rate capture.
-   
-![image1](/Pyramid/camera_files/cam1_corrected.jpeg)
+   * video rate capture
+
+Previous designs realize a single viewpoint within each 
+mirror pyramid. In order to capture panoramas from multiple viewpoints 
+with these designs, the entire physical setup would need to be relocated 
+or duplicated. The former solution lacks the capability of video rate 
+imaging, and the latter leads to bulky designs due to the multiple mirror 
+pyramids.
+
+In our paper we proposed a method for generalizing existing designs 
+such that multiple viewpoints can be created in a single mirror pyramid. 
+This enables simultaneous multiview panoramic video rate imaging with a 
+compact design. 
+
+<TABLE width=600>
+  <TBODY>
+  <TR>
+    <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-a.jpeg" 
+      width=153 border=0> </TD>
+    <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-b.jpeg" 
+      width=158 border=0> </TD>
+    <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-c.jpeg" 
+      width=153 border=0> </TD></TR>
+  <TR>
+    <TD align=middle>(a) </TD>
+    <TD align=middle>(b) </TD>
+    <TD align=middle>(c) </TD></TR>
+  <TR>
+    <TD align=left colSpan=3>Figure 1. Variation in the physical camera 
+      position with viewpoint position. (a) Viewpoint is centered in four-sided 
+      pyramid, shown with the corresponding eight camera positions. (b) 
+      Translated viewpoints marked A, B, and C are shown with correspondingly 
+      marked physical camera positions. (c) Same as (b), but with a mirror 
+      pyramid with a large number of faces to show how the shape changes as the 
+      viewpoint translates. 
+      <P>&nbsp;</P></TD></TR></TBODY>
+</TABLE>
+
+## Experiments
+
+<TABLE cellSpacing=0 cellPadding=0 width=600>
+  <TBODY>
+  <CENTER>
+  <TR>
+    <TD align=middle><IMG height=155 src="camera_files/spam_design.jpeg" 
+      width=250 border=0>
+      <P></P></TD>
+    <TD align=middle><IMG height=290 src="camera_files/spam_setup.jpeg" 
+      width=250 border=0>&nbsp; </TD></TR>
+  <TR>
+    <TD align=middle>(a) </TD>
+    <CENTER>
+    <TD align=middle>(b) </TD>
+  <TR>
+    <TD align=left colSpan=2>
+      <P align=left>Figure 2. The experimental multiview panoramic camera. (a) 
+      The conceptual design. (b) The physical implementation utilizing four 
+      cameras and two mirror faces to produce two views. 
+      <P align=left>&nbsp;</P></TD></TR></TBODY>
+</TABLE>
+      
+<TABLE height=433 cellSpacing=2 cols=2 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><A name=Results></A><FONT color=#003399 size=4>Results</FONT></H2></TD>
+    <TD></TD>
+    <TD align=right>
+      <P align=right>[<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Camera/camera.html#top">back to 
+      top</A>] </P></TD></TR>
+  <TR>
+    <TD vAlign=bottom align=middle height=152><IMG height=150 
+      src="camera_files/cam1_corrected.jpeg" width=200 border=0></TD>
+    <TD vAlign=bottom align=middle height=152><IMG height=150 
+      src="camera_files/cam2_corrected.jpeg" width=200 border=0></TD>
+    <TD vAlign=bottom align=middle height=304 rowSpan=2><IMG height=300 
+      src="camera_files/mosaiced_views.jpeg" width=259 border=0></TD></TR>
+  <TR>
+    <TD align=middle height=152><IMG height=150 
+      src="camera_files/cam3_corrected.jpeg" width=200 border=0> </TD>
+    <TD align=middle height=152><IMG height=150 
+      src="camera_files/cam4_corrected.jpeg" width=200 border=0> </TD></TR>
+  <TR>
+    <TD align=middle colSpan=2 height=24>(a)</TD>
+    <TD vAlign=bottom align=middle height=24>(b)</TD></TR>
+  <TR>
+    <TD align=middle colSpan=3 height=18>
+      <P align=left>Figure 3. Experimental results. (a) Images captured by the 
+      four conventional cameras, after correcting for radial distortion. (b) The 
+      mosaiced views.</P></TD></TR></TBODY>
+</TABLE>      
 
 ## Collaborators
 [Hong Hua](https://wp.optics.arizona.edu/3dvis/people/dr-hong-hua/)
