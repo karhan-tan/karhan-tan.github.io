@@ -41,8 +41,9 @@ such that multiple viewpoints can be created in a single mirror pyramid.
 This enables simultaneous multiview panoramic video rate imaging with a 
 compact design. 
 
-| ![](/Pyramid/camera_files/viewpoint-var-a.jpeg)| ![](/Pyramid/camera_files/viewpoint-var-b.jpeg) | ![](/Pyramid/camera_files/viewpoint-var-c.jpeg) |
-| (a) | (b) | (c) |
+![](/Pyramid/camera_files/viewpoint-var-a.jpeg) | ![](/Pyramid/camera_files/viewpoint-var-b.jpeg) | ![](/Pyramid/camera_files/viewpoint-var-c.jpeg) 
+:------:|:------:
+ (a) | (b) | (c) 
 
 
 <table width=600>
