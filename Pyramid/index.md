@@ -55,25 +55,12 @@ viewpoint translates.
 
 ## Experiments
 
-<table cellSpacing=0 cellPadding=0 width=600>
-  <CENTER>
-  <TR>
-    <TD align=middle><IMG height=155 src="camera_files/spam_design.jpeg" 
-      width=250 border=0>
-      <P></P></TD>
-    <TD align=middle><IMG height=290 src="camera_files/spam_setup.jpeg" 
-      width=250 border=0>&nbsp; </TD></TR>
-  <TR>
-    <TD align=middle>(a) </TD>
-    <CENTER>
-    <TD align=middle>(b) </TD>
-  <TR>
-    <TD align=left colSpan=2>
-      <P align=left>Figure 2. The experimental multiview panoramic camera. (a) 
-      The conceptual design. (b) The physical implementation utilizing four 
-      cameras and two mirror faces to produce two views. 
-      <P align=left>&nbsp;</P></TD></TR>
-</table>
+![](/Pyramid/camera_files/spam_design.jpeg) | ![](/Pyramid/camera_files/spam_setup.jpeg)
+:------:|:------:
+
+Figure 2. The experimental multiview panoramic camera. (a) 
+The conceptual design. (b) The physical implementation utilizing four 
+cameras and two mirror faces to produce two views. 
       
 <table height=433 cellSpacing=2 cols=2 cellPadding=0 width=640>
   <TR>
