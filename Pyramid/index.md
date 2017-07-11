@@ -44,9 +44,9 @@ compact design.
 ![](/Pyramid/camera_files/viewpoint-var-a.jpeg) | ![](/Pyramid/camera_files/viewpoint-var-b.jpeg) | ![](/Pyramid/camera_files/viewpoint-var-c.jpeg) 
 :------:|:------:
  (a) | (b) | (c) 
+:------:|:------:
 
 
-<table width=600>
   <TR>
     <TD align=middle><IMG height=250 src="camera_files/viewpoint-var-a.jpeg" 
       width=153 border=0> </TD>
