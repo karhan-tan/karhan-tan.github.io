@@ -63,36 +63,12 @@ Figure 2. The experimental multiview panoramic camera. (a)
 The conceptual design. (b) The physical implementation utilizing four 
 cameras and two mirror faces to produce two views. 
       
-<table height=433 cellSpacing=2 cols=2 cellPadding=0 width=640>
-  <TR>
-    <TD>
-      <H2><A name=Results></A><FONT color=#003399 size=4>Results</FONT></H2></TD>
-    <TD></TD>
-    <TD align=right>
-      <P align=right>[<A 
-      href="http://vision.ai.uiuc.edu/~tankh/Camera/camera.html#top">back to 
-      top</A>] </P></TD></TR>
-  <TR>
-    <TD vAlign=bottom align=middle height=152><IMG height=150 
-      src="camera_files/cam1_corrected.jpeg" width=200 border=0></TD>
-    <TD vAlign=bottom align=middle height=152><IMG height=150 
-      src="camera_files/cam2_corrected.jpeg" width=200 border=0></TD>
-    <TD vAlign=bottom align=middle height=304 rowSpan=2><IMG height=300 
-      src="camera_files/mosaiced_views.jpeg" width=259 border=0></TD></TR>
-  <TR>
-    <TD align=middle height=152><IMG height=150 
-      src="camera_files/cam3_corrected.jpeg" width=200 border=0> </TD>
-    <TD align=middle height=152><IMG height=150 
-      src="camera_files/cam4_corrected.jpeg" width=200 border=0> </TD></TR>
-  <TR>
-    <TD align=middle colSpan=2 height=24>(a)</TD>
-    <TD vAlign=bottom align=middle height=24>(b)</TD></TR>
-  <TR>
-    <TD align=middle colSpan=3 height=18>
-      <P align=left>Figure 3. Experimental results. (a) Images captured by the 
-      four conventional cameras, after correcting for radial distortion. (b) The 
-      mosaiced views.</P></TD></TR>
-</table>      
+![](/Pyramid/camera_files/cam1_corrected.jpeg) | ![](/Pyramid/camera_files/cam2_corrected.jpeg) 
+:------:|:------:
+![](/Pyramid/camera_files/cam3_corrected.jpeg) | ![](/Pyramid/camera_files/cam4_corrected.jpeg)
+:------:|:------:
+
+![](/Pyramid/camera_files/mosaiced_views.jpeg) 
 
 ## Collaborators
 [Hong Hua](https://wp.optics.arizona.edu/3dvis/people/dr-hong-hua/)
