@@ -9,7 +9,10 @@ layout: default
 
 [Google Patents](https://patents.google.com/?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&clustered=false&sort=new&num=100)
 
-## Inventions
-![](/Pyramid/camera_files/spam_setup.jpeg)
+## Projects 
 
-[Multiview Panoramic Camera](/Pyramid)
+**[Multiview Panoramic Camera](/Pyramid)** | [![](/Pyramid/camera_files/spam_setup.jpeg)](/Pyramid)
+:---|:---
+**Virtual Structures Formation Control** | ![](/_assets/mif_qt4.gif)
+**Legged Locomotion** | ![](/_assets/Walking.gif)
+
