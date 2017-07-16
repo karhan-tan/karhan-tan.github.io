@@ -13,6 +13,6 @@ layout: default
 
 **[Multiview Panoramic Camera](/Pyramid)** | [![](/Pyramid/camera_files/spam_setup.jpeg)](/Pyramid)
 :---|:---
-**Virtual Structures Formation Control** | ![](/_assets/mif_qt4.gif)
-**Legged Locomotion** | ![](/_assets/Walking.gif)
+**Virtual Structures Formation Control** | ![](/assets/mif_qt4.gif)
+**Legged Locomotion** | ![](/assets/Walking.gif)
 
