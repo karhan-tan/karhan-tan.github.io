@@ -13,16 +13,19 @@ Figure 1. Example of object selection. (a) Original image, with a sketch drawn o
 
 A sketching interface is an appropriate choice for image editing because the pen and pencil are ubiquitous tools for creating graphics, and sketch-based interaction would be very natural for use in handheld tablet computers. A typical example of the kind of sketch allowed by the selection tool we will describe is shown in figure 1(a). With the sketch shown, our selection tool was able to extract the head of the crane, as shown in figure 1(b). Despite the fairly convoluted profile of the crane's head, which consists of both sharp boundaries along the beak and complicated boundaries around the crane's crown, our selection tool needed only the simple sketch shown, which is natural and can be drawn quickly, without much skill and dexterity. We believe that this tool will enable sophisticated and high-fidelity graphical selection and manipulation operations in situations where the user may not have much time, such as during a live sports broadcast, or may not have much dextrous control, such as on a mobile handheld device, or may want to avoid the monotony and tedium of selection, without compromising the quality of the selection. 
 
-![](Selection/selection_files/fig03.jpeg)
+![](/Selection/selection_files/fig03.jpeg)
 
 Figure 2: Steps in selection algorithm.
 
 ## Results
 
-![](/Selection/selection_files/fig07b.jpeg)
-![](/Selection/selection_files/fig07c.jpeg)
-![](/Selection/selection_files/crane_1.jpeg)
-![](/Selection/selection_files/crane_5.jpeg)
+![](/Selection/selection_files/fig07b.jpeg) | ![](/Selection/selection_files/fig07c.jpeg)
+----|----
+![](/Selection/selection_files/crane_1.jpeg) | ![](/Selection/selection_files/crane_5.jpeg)
+
+## Collaborator
+
+[Narendra Ahuja](http://vision.ai.illinois.edu/ahuja.html), University of Illinois at Urbana-Champaign 
 
 ## References
 
@@ -30,7 +33,9 @@ Figure 2: Steps in selection algorithm.
 1.  Tan, Kar-Han; Ahuja, Narendra;  A representation of image structure and its application to object selection using freehand sketches . Computer Vision and Pattern Recognition, 2001. CVPR 2001. Proceedings of the 2001 IEEE Computer Society Conference on .  pp.II-II . 2001 . [full text](/Publications/KarHanTan2001A.pdf)
 
 ## Citation
-   @INPROCEEDINGS{ref:KarHanTan2001Selecting, 
+
+```
+@INPROCEEDINGS{ref:KarHanTan2001Selecting, 
    author={Kar-Han Tan and N. Ahuja}, 
    booktitle={Proceedings Eighth IEEE International Conference on Computer Vision. ICCV 2001}, 
    title={Selecting objects with freehand sketches}, 
@@ -41,7 +46,7 @@ Figure 2: Steps in selection algorithm.
    doi={10.1109/ICCV.2001.937538}, 
    note={\url{https://karhan-tan.github.io/Selection}}}
    
-   @INPROCEEDINGS{991029, 
+@INPROCEEDINGS{ref:KarHanTan2001A, 
    author={Kar-Han Tan and N. Ahuja}, 
    booktitle={Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. CVPR 2001}, 
    title={A representation of image structure and its application to object selection using freehand sketches}, 
@@ -52,4 +57,5 @@ Figure 2: Steps in selection algorithm.
    doi={10.1109/CVPR.2001.991029}, 
    ISSN={1063-6919}, 
    note={\url{https://karhan-tan.github.io/Selection}}}
+```
    
