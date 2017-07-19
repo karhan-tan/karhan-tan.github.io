@@ -23,6 +23,8 @@ Figure 2: Steps in selection algorithm.
 ----|----
 ![](/Selection/selection_files/crane_1.jpeg) | ![](/Selection/selection_files/crane_5.jpeg)
 
+------
+
 ## Collaborator
 
 [Narendra Ahuja](http://vision.ai.illinois.edu/ahuja.html), University of Illinois at Urbana-Champaign 
