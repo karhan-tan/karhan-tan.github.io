@@ -4,7 +4,15 @@ layout: default
 
 [LinkedIn](https://www.linkedin.com/in/karhantan)
 
+## Affiliations
+
+[UIUC](http://vision.ai.illinois.edu) . [Beckman Institute](https://beckman.illinois.edu/research/fellows-and-awards/graduate/alumni) . [UCLA](http://www.cs.ucla.edu) . [NUS](http://www.comp.nus.edu.sg) 
+
+[MERL](http://www.merl.com) . [Epson R&D](https://epson.com) . [HP Labs](http://www.hpl.hp.com/research/) . [NovuMind](http://www.novumind.com)
+
+
 ------
+
 
 ## Publications
 
@@ -12,7 +20,9 @@ layout: default
 :---|:---|:---
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=Fz17zgcAAAAJ) |  | [Google Patents](https://patents.google.com/?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&clustered=false&sort=new&num=100)
 
+
 ------
+
 
 ## Projects 
 
