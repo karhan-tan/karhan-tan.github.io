@@ -3,6 +3,7 @@ layout: default
 ---
 
 # Academic Publications
+
 1.  Tan, Kar-Han; Lewis, M Anthony;  Virtual structures for high-precision cooperative mobile robotic control . Intelligent Robots and Systems' 96, IROS 96, Proceedings of the 1996 IEEE/RSJ International Conference on .  pp.132-139 . 1996 . [fulltext](/Publications/KarHanTan1996Virtual.pdf)
 1.  Zhen, Jian; Lewis, M. A.; Tan, Kar-Han;  Towards universal access to robotic resources . Intelligent Robots and Systems '96, IROS 96 .  pp.132-139 . 1996 . [fulltext](/Publications/KarHanTan1996Towards.pdf)
 1.  Lewis, M Anthony; Tan, Kar-Han;  High precision formation control of mobile robots using virtual structures . Autonomous robots . 4(4) pp.387-403 . 1997 . [fulltext](/Publications/KarHanTan1997High.pdf)
@@ -48,3 +49,6 @@ layout: default
 1.  Yang, Qingxiong; Ahuja, Narendra; Yang, Ruigang; Tan, Kar-Han; Davis, James; Culbertson, Bruce; Apostolopoulos, John; Wang, Gang;  Fusion of median and bilateral filtering for range image upsampling . IEEE Transactions on Image Processing . 22(12) pp.4841-4852 . 2013 . [fulltext](/Publications/KarHanTan2013Fusion.pdf)
 1.  Bebis, George; Boyle, Richard; Parvin, Bahram; Koracin, Darko; Li, Baoxin; Porikli, Fatih; Zordan, Victor; Klosowski, James; Coquillart, Sabine; Luo, Xun;  Advances in Visual Computing: 9th International Symposium, ISVC 2013, Rethymnon, Crete, Greece, July 29-31, 2013. Proceedings .  .  pp.4841-4852 . 2013 . [fulltext](/Publications/KarHanTan2013Advances.pdf)
 1.  Yang, Qingxiong; Ahuja, Narendra; Tan, Kar-Han;  Constant time median and bilateral filtering . International Journal of Computer Vision . 112(3) pp.307-318 . 2015 . [fulltext](/Publications/KarHanTan2015Constant.pdf)
+
+
+* Semi-automatically generated from [Google Scholar](https://scholar.google.com/citations?hl=en&user=Fz17zgcAAAAJ)
