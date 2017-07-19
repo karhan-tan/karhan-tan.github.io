@@ -13,8 +13,10 @@ layout: default
 
 ## Projects 
 
-**[Multiview Panoramic Camera](/Pyramid)** | [![](/Pyramid/camera_files/spam_setup.jpeg)](/Pyramid)
+**[ConnectBoard](/ConnectBoard)** | ![](/ConnectBoard/ConnectBoard.png)
 :---|:---
+**[O(1) Time Median and Bilateral Filtering](/CTMBF)** |  ![](/CTMBF/ctbf.jpg)
+**[Multiview Panoramic Camera](/Pyramid)** | [![](/Pyramid/camera_files/spam_setup.jpeg)](/Pyramid)
 **Virtual Structures Formation Control** | ![](/assets/mif_qt4.gif)
 **Legged Locomotion** | ![](/assets/Walking.gif)
 
