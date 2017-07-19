@@ -4,9 +4,9 @@ layout: default
 
 # Academic Publications
 
+1.  Tan, Kar-Han; Lewis, M Anthony;  Virtual structures for high-precision cooperative mobile robotic control . Intelligent Robots and Systems' 96, IROS 96, Proceedings of the 1996 IEEE/RSJ International Conference on .  pp.132-139 . 1996 . [fulltext](/Publications/KarHanTan1996Virtual.pdf)
 1.  Lewis, M Anthony; Tan, Kar-Han;  High precision formation control of mobile robots using virtual structures . Autonomous robots . 4(4) pp.387-403 . 1997 . [fulltext](/Publications/KarHanTan1997High.pdf)
 1.  Raskar, Ramesh; Tan, Kar-Han; Feris, Rogerio; Yu, Jingyi; Turk, Matthew;  Non-photorealistic camera: depth edge detection and stylized rendering using multi-flash imaging . ACM transactions on graphics (TOG) . 23(3) pp.679-688 . 2004 . [fulltext](/Publications/KarHanTan2004Non-photorealistic.pdf)
-1.  Tan, Kar-Han; Lewis, M Anthony;  Virtual structures for high-precision cooperative mobile robotic control . Intelligent Robots and Systems' 96, IROS 96, Proceedings of the 1996 IEEE/RSJ International Conference on .  pp.132-139 . 1996 . [fulltext](/Publications/KarHanTan1996Virtual.pdf)
 1.  Tan, Kar-Han; Kriegman, David J; Ahuja, Narendra;  Appearance-based eye gaze estimation . Applications of Computer Vision, 2002.(WACV 2002). Proceedings. Sixth IEEE Workshop on .  pp.191-195 . 2002 . [fulltext](/Publications/KarHanTan2002Appearance-based.pdf)
 1.  Yang, Qingxiong; Tan, Kar-Han; Ahuja, Narendra;  Real-time O (1) bilateral filtering . Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on .  pp.557-564 . 2009 . [fulltext](/Publications/KarHanTan2009Real-time.pdf)
 1. Kar-Han Tan, Hong Hua and N. Ahuja, "Multiview panoramic cameras using mirror pyramids," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 26, no. 7, pp. 941-946, July 2004.
