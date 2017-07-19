@@ -84,9 +84,9 @@ Figure 4. Stitched Image Pair
 
 
 ## Publications
-1. Kar-Han Tan, Hong Hua and Narendra Ahuja, "Multiview panoramic cameras using mirror pyramids," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 26, no. 7, pp. 941-946, July 2004. [DOI](http://dx.doi.org/10.1109/TPAMI.2004.33)  [PDF](/Publication/tan2004multiview.pdf)
+1. Kar-Han Tan, Hong Hua and Narendra Ahuja, "Multiview panoramic cameras using mirror pyramids," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 26, no. 7, pp. 941-946, July 2004. [DOI](http://dx.doi.org/10.1109/TPAMI.2004.33)  [PDF](/Publications/KarHanTan2004Multiview.pdf)
 
-2. Kar-Han Tan, Hong Hua and Narendra Ahuja, "Multiview panoramic cameras using a mirror pyramid," Third Workshop on Omnidirectional Vision, pp. 87-93, 2002. [DOI](http://dx.doi.org/10.1109/OMNVIS.2002.1044501)
+2. Kar-Han Tan, Hong Hua and Narendra Ahuja, "Multiview panoramic cameras using a mirror pyramid," Third Workshop on Omnidirectional Vision, pp. 87-93, 2002. [DOI](http://dx.doi.org/10.1109/OMNVIS.2002.1044501) [PDF](/Publications/KarHanTan2002Multiview.pdf)
 
 ## Citation
     @ARTICLE{tan2004multiview,
