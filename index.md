@@ -16,7 +16,7 @@ layout: default
 
 ## Projects 
 
-### [ConnectBoard](/ConnectBoard) 
+### [ConnectBoard: Enabling Eye Contact in Remote Collaboration](/ConnectBoard) 
 
 [![](/ConnectBoard/ConnectBoard.png)](/ConnectBoard)
 
