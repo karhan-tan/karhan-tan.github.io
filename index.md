@@ -24,6 +24,10 @@ layout: default
 
 [![](/CTMBF/ctbf.jpg)](/CTMBF)
 
+### [Selecting Visual Objects with Freehand Sketches](/Selection)
+
+[![](/Selection/selection_files/fig01.jpeg)](/Selection)
+
 ### [Multiview Panoramic Camera](/Pyramid)
 
 [![](/Pyramid/camera_files/spam_setup.jpeg)](/Pyramid)
