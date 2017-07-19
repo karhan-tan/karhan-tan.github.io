@@ -5,7 +5,7 @@ layout: default
 [LinkedIn](https://www.linkedin.com/in/karhantan)
 
 ## Publications
-[Academic Papers](/Publication)
+[Academic Papers](/Publications)
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=Fz17zgcAAAAJ)
 
