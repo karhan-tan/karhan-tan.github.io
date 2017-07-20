@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[LinkedIn](https://www.linkedin.com/in/karhantan)
+[LinkedIn](https://www.linkedin.com/in/karhantan) . [GitHub](https://github.com/karhan-tan)
 
 ## Affiliations
 
@@ -29,6 +29,10 @@ layout: default
 ### [ConnectBoard: Enabling Eye Contact in Remote Collaboration](/ConnectBoard) 
 
 [![](/ConnectBoard/ConnectBoard.png)](/ConnectBoard)
+
+### [Glasses-free 3D Displays](/C3D)
+
+[![](/C3D/C3D_View.gif)](/C3D)
 
 ### [O(1) Time Median and Bilateral Filtering](/CTMBF)
 
