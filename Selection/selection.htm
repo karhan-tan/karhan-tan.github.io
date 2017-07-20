@@ -1,0 +1,301 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0057)http://vision.ai.uiuc.edu/~tankh/Selection/selection.html -->
+<HTML><HEAD><TITLE>Selecting Objects with Freehand Sketches</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="selection, segmentation, interaction, alpha channel" 
+name=KeyWords>
+<META content="Kar-Han Tan" name=Author>
+<META content="MSHTML 6.00.2800.1276" name=GENERATOR>
+<META content="text/html; charset=iso-8859-1" name=Content-Type></HEAD>
+<BODY text=#000000 vLink=#6876e7 aLink=#0000ff link=#0000ff 
+bgColor=#ffffff>&nbsp; 
+<CENTER>
+<TABLE cellSpacing=0 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <CENTER><A name=top></A><IMG height=37 
+      src="selection_files/Vision_Lab_Title_Slim.jpeg" width=640 
+      border=0></CENTER></TD></TR>
+  <TR>
+    <TD><FONT color=#006699><A href="http://vision.ai.uiuc.edu/">Home</A> &gt; 
+      <A href="http://vision.ai.uiuc.edu/themes/theme5.htm">V.3.1: Learning, 
+      Recognition, and Human Computer Interaction</A> &gt; <A 
+      href="http://vision.ai.uiuc.edu/Project_Page.htm#5_3_1">Sketch-based 
+      object selection </A></FONT></TD></TR></TBODY></TABLE></CENTER><BR>&nbsp; 
+<CENTER>
+<H1><FONT color=#003399>Selecting Visual Objects with Freehand 
+Sketches</FONT></H1></CENTER>
+<CENTER>
+<TABLE cellSpacing=0 cols=2 cellPadding=0 width=500 border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <CENTER><A href="http://vision.ai.uiuc.edu/~tankh">Kar-Han Tan</A> 
+      <BR>Department of Computer Science</CENTER></TD>
+    <TD vAlign=top>
+      <CENTER><A href="http://www.ece.uiuc.edu/fachtml/ahuja.html">Narendra 
+      Ahuja</A> <BR>Department of Electrical and Computer 
+  Engineering</CENTER></TD></TR></TBODY></TABLE></CENTER>
+<CENTER>
+<P>Beckman Institute for Advanced Science and Technology <BR>University of 
+Illinois at Urbana-Champaign</CENTER>
+<P><BR>
+<CENTER>
+<TABLE cellSpacing=0 cols=6 cellPadding=0 width=500 border=1>
+  <TBODY>
+  <TR>
+    <TD>
+      <CENTER><A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection.html#Introduction">Introduction</A></CENTER></TD>
+    <TD>
+      <CENTER><A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection.html#Applications">Applications</A></CENTER></TD>
+    <TD>
+      <CENTER><A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection.html#Algorithm">Algorithm</A></CENTER></TD>
+    <TD>
+      <CENTER><A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection.html#Results">Results</A></CENTER></TD>
+    <TD>
+      <CENTER><A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection.html#References">References</A></CENTER></TD>
+    <TD>
+      <CENTER><A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection.html#Contact">Contact 
+      Info</A></CENTER></TD></TR></TBODY></TABLE></CENTER><BR>&nbsp; 
+<CENTER>
+<TABLE cellSpacing=0 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><A name=Introduction></A><FONT 
+      color=#003399>Introduction</FONT></H2><I>Selection</I>in digital image 
+      editing is the task of extracting an object embedded in an image, a task 
+      performed frequently in many digital content creation applications. A 
+      classic example of selection is in broadcast television news where blue 
+      screen matting is used to place a newscasterís image in front of 
+      background graphics. Artists creating magazine covers routinely extract 
+      people or products from photographs to remove unwanted background and 
+      compose the new images such that magazine titles appear to be occluded by 
+      the object naturally. Currently a number of commercial tools are available 
+      that aid in the process, but they either have severe limitations in their 
+      capabilities, or require very careful user guidance and control. In this 
+      project, we attempt to making selection easier and usable in a wider range 
+      of applications. We present the design of a tool for selecting objects 
+      using simple, rough freehand sketches similar to those used in normal 
+      interhuman communication.</TD>
+    <TD width=381>
+      <TABLE cellSpacing=2 cols=1 cellPadding=2 width="100%">
+        <TBODY>
+        <TR>
+          <TD><IMG height=300 src="selection_files/fig01.jpeg" width=381> 
+            <CENTER>
+            <P>Figure 1. Example of object selection. (a) Original image, with a 
+            sketch drawn over image. (b) Selection computed is composited 
+            against a black background. (Original image by Gerald and Buff 
+            Corsi, California Academy of 
+      Science)</CENTER></P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></CENTER><BR>&nbsp; 
+
+<CENTER>
+<TABLE cellSpacing=0 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cols=2 cellPadding=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD>
+            <H2><A name=Applications></A><FONT 
+            color=#003399>Applications</FONT></H2></TD>
+          <TD vAlign=top>
+            <DIV align=right>[<A 
+            href="http://vision.ai.uiuc.edu/~tankh/Selection/selection.html#top">back 
+            to top</A>]</DIV></TD></TR></TBODY></TABLE>A sketching interface is an 
+      appropriate choice for image editing because the pen and pencil are 
+      ubiquitous tools for creating graphics, and sketch-based interaction would 
+      be very natural for use in handheld personal digital assistants and the 
+      emerging class of ìtabletî computers. A typical example of the kind of 
+      sketch allowed by the selection tool we will describe is shown in figure 
+      1(a). With the sketch shown, our selection tool was able to extract the 
+      head of the crane, as shown in figure 1(b). Despite the fairly convoluted 
+      profile of the craneís head, which consists of both sharp boundaries along 
+      the beak and complicated boundaries around the craneís crown, our 
+      selection tool needed only the simple sketch shown, which is natural and 
+      can be drawn quickly, without much skill and dexterity. We believe that 
+      this tool will enable sophisticated and high-fidelity graphical selection 
+      and manipulation operations in situations where the user may not have much 
+      time, such as during a live sports broadcast, or may not have much 
+      dextrous control, such as on a mobile handheld device, or may want to 
+      avoid the monotony and tedium of selection, without compromising the 
+      quality of the selection.&nbsp;</TD></TR></TBODY></TABLE></CENTER><BR>&nbsp; 
+<CENTER>
+<TABLE cellSpacing=0 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><A name=Algorithm></A><FONT color=#003399>Algorithm</FONT></H2></TD>
+    <TD vAlign=top>
+      <DIV align=right>[<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection.html#top">back 
+      to top</A>]</DIV></TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <TABLE height="100%" cols=1 width="100%">
+        <TBODY>
+        <TR>
+          <TD>
+            <H3><FONT size=+0>Step 1: Draw Sketch</FONT></H3>User draws sketch 
+            over the image. Users can make three types of sketch strokes: 
+            <UL>
+              <LI>Points 
+              <LI>Lines 
+              <LI>Regions (closed loops) </LI></UL></TD></TR>
+        <TR>
+          <TD>
+            <H3><FONT size=+0>Step 2: Image Segmentation</FONT></H3>Compute a 
+            global segmentation of the image. We can use any existing 
+            segmentation method. The segment map illustrated is computed by 
+            recursive binary-split vector quantization in the (x,y,rgb) 
+        space.</TD></TR>
+        <TR>
+          <TD>
+            <H3><FONT size=+0>Step 3: Sketch Processing</FONT></H3>Use sketch to 
+            select a number of segments from the image that form the foreground 
+            object.</TD></TR>
+        <TR>
+          <TD>
+            <H3><FONT size=+0>Step 4: Simplicial Decomposition</FONT></H3>We 
+            want to decompose the image into small triangles so they can be 
+            processed individually. We can use:&nbsp; 
+            <UL>
+              <LI>Delaunay Triangulation of the segment centroids, [1] or 
+              <LI>Use the segmentation to compute a triangulation [2]. 
+          </LI></UL></TD></TR>
+        <TR>
+          <TD>
+            <H3><FONT size=+0>Step 5: Object Extraction</FONT></H3>Each triangle 
+            is processed separately as follows: 
+            <UL>
+              <LI>Find a linear approximation to the local object boundary. 
+              <LI>Re-segment the image within the boundary using the same 
+              segmentation algorithm as in step 2. 
+              <LI>Classify the new segments into foreground/background using the 
+              linear boundary. 
+              <LI>Pick a window of pixels around each of the new segment 
+              centroids and use them as samples of foreground/background colors 
+              <LI>Estimate alpha channel </LI></UL></TD></TR>
+        <TR>
+          <TD>
+            <H3><FONT size=+0>Step 6: Complete Selection</FONT></H3>Composite 
+            the result from each triangle back into a complete 
+        selection.</TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top><IMG height=790 src="selection_files/fig03.jpeg" width=388 
+      border=0> 
+      <CENTER>
+      <P>Figure 2: Steps in selection 
+algorithm.</CENTER></P></TD></TR></TBODY></TABLE></CENTER><BR>&nbsp; 
+<CENTER>
+<TABLE cellSpacing=0 cols=2 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <H2><A name=Results></A><FONT color=#003399>Results</FONT></H2></TD>
+    <TD vAlign=bottom>
+      <DIV align=right>[<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection.html#top">back 
+      to top</A>]</DIV>
+      <P><BR>&nbsp;</P></TD></TR>
+  <TR>
+    <TD vAlign=bottom><IMG height=230 src="selection_files/fig07b.jpeg" 
+      width=320 border=0></TD>
+    <TD vAlign=bottom><IMG height=233 src="selection_files/fig07c.jpeg" 
+      width=320 border=0></TD></TR>
+  <TR>
+    <TD>
+      <CENTER>
+      <H3>Sketch</H3></CENTER><IMG height=350 src="selection_files/crane_1.jpeg" 
+      width=320 border=0></TD>
+    <TD>
+      <CENTER>
+      <H3>Resulting Selection</H3></CENTER><IMG height=350 
+      src="selection_files/crane_5.jpeg" width=320 
+border=0></TD></TR></TBODY></TABLE></CENTER>
+<CENTER>Figure 3: Results computed with the Delaunay Triangulation decomposition 
+method.</CENTER>
+<P><BR>
+<CENTER>
+<TABLE cellSpacing=0 cols=1 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cols=2 cellPadding=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD>
+            <H2><A name=References></A><FONT 
+          color=#003399>References</FONT></H2></TD>
+          <TD vAlign=top>
+            <DIV align=right>[<A 
+            href="http://vision.ai.uiuc.edu/~tankh/Selection/selection.html#top">back 
+            to top</A>]</DIV></TD></TR></TBODY></TABLE>
+      <P>1. Kar-Han Tan and Narendra Ahuja. Selecting Objects with Freehand 
+      Sketches. In Proceedings IEEE International Conference on Computer Vision. 
+      2001.&nbsp; <BR>Download Paper: [<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection-iccv2001.ps">PS 
+      19.8MB</A>][<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection-iccv2001.pdf">PDF 
+      12.9MB</A>][ <A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection-iccv2001-72dpi.pdf">Small 
+      PDF 1.3MB</A>] 
+      <P>2. Kar-Han Tan and Narendra Ahuja. A Representation for Image Structure 
+      and its Application in Object Selection with Freehand Sketches. In 
+      Proceedings IEEE Computer Society Conference on Computer Vision and 
+      Pattern Recognition. 2001.&nbsp; <BR>Download Paper: [<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection-cvpr2001.ps">PS 
+      13.2MB</A>][<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection-cvpr2001.pdf">PDF 
+      4.3MB</A>][<A 
+      href="http://vision.ai.uiuc.edu/~tankh/Selection/selection-cvpr2001-72dpi.pdf">Small 
+      PDF 1.3MB</A>]</P></TD></TR></TBODY></TABLE></CENTER><BR>&nbsp; 
+<CENTER>
+<TABLE cellSpacing=0 cols=1 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><A name=Contact></A><FONT color=#0043b0>Contact 
+Information</FONT></H2>
+      <TABLE cellSpacing=0 cols=2 cellPadding=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD vAlign=top><FONT color=#000000><FONT size=+1><A 
+            href="http://vision.ai.uiuc.edu/~tankh">Kar-Han 
+            Tan</A></FONT></FONT> 
+            <P><B>e-mail</B>: <A 
+            href="mailto:tankh@vision.ai.uiuc.edu">tankh@vision.ai.uiuc.edu</A> 
+            <BR><B>Phone</B>:&nbsp; 
+            <BLOCKQUOTE>217-244-4392 (lab) <BR>217-333-1869 
+          (office)</BLOCKQUOTE></TD>
+          <TD vAlign=top></TD></TR></TBODY></TABLE><B>Address</B>:&nbsp; 
+      <BLOCKQUOTE>Beckman Institute <BR>405 N Mathews Ave <BR>Urbana IL 
+      61801</BLOCKQUOTE></TD></TR></TBODY></TABLE></CENTER><BR>&nbsp; 
+<CENTER>
+<TABLE cellSpacing=0 cols=1 cellPadding=0 width=640>
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><FONT color=#003399>Acknowledgements</FONT></H2>We would like to thank 
+      Mark Ruzon and Carlo Tomasi for making available the source code for alpha 
+      estimation. The support of the Office of Naval Research under grant&nbsp; 
+      N00014-96-1-0502, and the Beckman Institute Graduate Fellowship is 
+      gratefully acknowledged.</TD></TR></TBODY></TABLE></CENTER>
+<CENTER>
+<P><IMG height=37 src="selection_files/Vision_Lab_Title_Slim.jpeg" width=640 
+border=0></CENTER>
+<H4 align=center>| <A 
+href="http://vision.ai.uiuc.edu/~tankh/index.html">Home</A> | <A 
+href="http://vision.ai.uiuc.edu/~tankh/Project_Page.htm">Projects</A> | <A 
+href="http://vision.ai.uiuc.edu/~tankh/People.htm">People</A> | <A 
+href="http://vision.ai.uiuc.edu/~tankh/Publication_List.htm">Publications</A> | 
+<A href="http://vision.ai.uiuc.edu/~tankh/Pointers.htm">Links</A> | 
+</H4></BODY></HTML>
