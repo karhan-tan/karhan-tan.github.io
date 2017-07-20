@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="/assets/tkh.jpeg" height=200 width=200 /> 
+![](/assets/tkh200.jpeg) 
 
 Kar-Han Tan is Vice President of Engineering at [NovuMind](http://www.novumind.com), where he leads the development of full-stack artificial intelligence technologies and solutions. Previously he led the HP computer vision team that built and launched the [Sprout](https://www.forbes.com/sites/georgeanders/2014/10/29/if-da-vinci-had-a-desktop-it-would-be-hps-1899-sprout/#56a2db905081), the first PC with built-in vision and mixed reality capabilities. Sprout features include object segmentation, 3D scanning, and real-time collaboration capabilities that leverage Kar-Han's work on gaze-aware immersive communication at [HP Labs](http://www.hpl.hp.com/research/). Earlier, he was manager of the algorithms group at [Epson R&D](https://epson.com), where he led the invention of advanced projection and imaging technologies. He has also worked at [MERL](http://www.merl.com) on Computational Photography. Kar-Han graduated from [NUS](http://www.comp.nus.edu.sg), earned his M.S. from [UCLA](http://www.cs.ucla.edu) and Ph.D. from the [University of Illinois at Urbana-Champaign](http://vision.ai.illinois.edu), where he was a [Beckman Institute](https://beckman.illinois.edu/research/fellows-and-awards/graduate/alumni) Graduate Fellow. 
 
