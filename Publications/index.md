@@ -5,7 +5,6 @@ layout: default
 # Academic Publications
 
 1.  Tan, Kar-Han; Lewis, M Anthony;  Virtual structures for high-precision cooperative mobile robotic control. Intelligent Robots and Systems' 96, IROS 96, Proceedings of the 1996 IEEE/RSJ International Conference on. vol. 1 pp.132-139. 1996. [full text](/Publications/KarHanTan1996Virtual.pdf)
-1.  Zhen, Jian; Lewis, M. A.; Tan, Kar-Han;  Towards universal access to robotic resources. Intelligent Robots and Systems '96, IROS 96.  1996. [full text](/Publications/KarHanTan1996Towards.pdf)
 1.  Zhen, Jian L.; Lewis, M. A.; Tan, Kar-Han;  Towards universal access to robotic resources. Intelligent Robots and Systems '96, IROS 96, Proceedings of the 1996 IEEE/RSJ International Conference on. vol. 3 pp.1400-1407. 1996. [full text](/Publications/KarHanTan1996Towards.pdf)
 1.  Lewis, M Anthony; Tan, Kar-Han;  High precision formation control of mobile robots using virtual structures. Autonomous robots. 4(4):387-403. 1997. [full text](/Publications/KarHanTan1997High.pdf)
 1.  Tan, Kar-Han; Ahuja, Narendra;  Selecting objects with freehand sketches. Computer Vision, 2001. ICCV 2001. Proceedings. Eighth IEEE International Conference on. vol. 1 pp.337-344. 2001. [full text](/Publications/KarHanTan2001Selecting.pdf)
