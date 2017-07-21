@@ -25,7 +25,7 @@ Kar-Han Tan is Vice President of Engineering at [NovuMind](http://www.novumind.c
 
 ### [ConnectBoard: Enabling Eye Contact in Remote Collaboration](/ConnectBoard) . [TMM 2011](/Publications/KarHanTan2011Connectboard.pdf) . [MMSP 2009](/Publications/KarHanTan2009Connectboard.pdf)
 
-[![](/ConnectBoard/ConnectBoard.png)](/ConnectBoard)
+[![](/ConnectBoard/ConnectBoard.jpg)](/ConnectBoard)
 
 ### [Glasses-free 3D Displays](/C3D) . [IDW 2011](/Publications/KarHanTan2011Glasses-Free.pdf)
 

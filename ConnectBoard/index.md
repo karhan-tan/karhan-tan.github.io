@@ -4,7 +4,7 @@ layout: default
 
 # ConnectBoard: Enabling Genuine Eye Contact in Remote Collaboration
 
-![](/ConnectBoard/ConnectBoard.png)
+![](/ConnectBoard/ConnectBoard.jpg)
 
 ## Collaborators
 
