@@ -17,6 +17,7 @@ layout: default
 1.  Yang, Qingxiong; Tan, Kar-Han; Ahuja, Narendra;  Real-time O (1) bilateral filtering. Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on. pp.557-564. 2009. [full text](/Publications/KarHanTan2009Real-time.pdf)
 1.  Yang, Qingxiong; Tan, Kar-Han; Ahuja, Narendra;  Shadow removal using bilateral filtering. IEEE Transactions on Image processing. 21(10):4361-4368. 2012. [full text](/Publications/KarHanTan2012Shadow.pdf)
 1.  Yang, Qingxiong; Ahuja, Narendra; Tan, Kar-Han;  Constant time median and bilateral filtering. International Journal of Computer Vision. 112(3):307-318. 2015. [full text](/Publications/KarHanTan2015Constant.pdf)
+1.  Qingxiong Yang, Kar-Han Tan. Constant time filtering . U.S. Patent [US8260076B1](https://patents.google.com/patent/US8260076B1/en) Priority 2009-03-31, granted 2012-09-04.
 
 ## Citations
 ```
