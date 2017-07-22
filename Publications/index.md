@@ -51,5 +51,6 @@ layout: default
 1.  Bebis, George; Boyle, Richard; Parvin, Bahram; Koracin, Darko; Li, Baoxin; Porikli, Fatih; Zordan, Victor; Klosowski, James; Coquillart, Sabine; Luo, Xun;  Advances in Visual Computing: 9th International Symposium, ISVC 2013, Rethymnon, Crete, Greece, July 29-31, 2013. Proceedings. .  2013. [full text](/Publications/KarHanTan2013Advances.pdf)
 1.  Yang, Qingxiong; Ahuja, Narendra; Tan, Kar-Han;  Constant time median and bilateral filtering. International Journal of Computer Vision. 112(3):307-318. 2015. [full text](/Publications/KarHanTan2015Constant.pdf)
 1.  Kang, Byeongkeun; Tan, Kar-Han; Tai, Hung-Shuo; Tretter, Daniel; Nguyen, Truong Q;  Hand Segmentation for Hand-Object Interaction from Depth map. arXiv preprint arXiv:1603.02345.  2016. [full text](/Publications/KarHanTan2016Hand.pdf)
+1.  Kang, Byeongkeun; Tan, Kar-Han; Tai, Hung-Shuo; Tretter, Daniel; Nguyen, Truong Q;  Hand Segmentation for Hand-Object Interaction from Depth map. Accepted for publication at IEEE GlobalSIP 2017. [full text](/Publications/KarHanTan2017Hand.pdf)
 
 * Semi-automatically generated from [Google Scholar](https://scholar.google.com/citations?hl=en&user=Fz17zgcAAAAJ)
