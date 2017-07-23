@@ -45,7 +45,7 @@ Kar-Han Tan works at [NovuMind](http://www.novumind.com), where he leads the dev
 
 ### [Virtual Structures Formation Control](/VS) . [IROS 1996](/Publications/KarHanTan1996Virtual.pdf) 
 
-[![](/VirtualStructures/mif_qt4.gif)](/VS)
+[![](/VirtualStructures/mif_qt4.gif)](/VirtualStructures)
 
 ### [Legged Locomotion](/Legged)
 
