@@ -23,6 +23,9 @@ Kar-Han Tan works at [NovuMind](http://www.novumind.com), where he leads the dev
 
 ## Projects 
 
+### [Hardware Accelerated Deep Learning for Unconstrained Face Recognition](/NovuFace)
+[![](/NovuFace/NovuFace.jpg)](/NovuFace)
+
 ### [ConnectBoard: Enabling Eye Contact in Remote Collaboration](/ConnectBoard) . [TMM 2011](/Publications/KarHanTan2011Connectboard.pdf) . [MMSP 2009](/Publications/KarHanTan2009Connectboard.pdf)
 
 [![](/ConnectBoard/ConnectBoard.jpg)](/ConnectBoard)
