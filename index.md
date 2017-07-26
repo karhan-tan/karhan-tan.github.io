@@ -43,7 +43,7 @@ Kar-Han Tan works at [NovuMind](http://www.novumind.com), where he leads the dev
 
 [![](/Pyramid/camera_files/spam_setup.jpeg)](/Pyramid)
 
-### [Virtual Structures Formation Control](/VS) . [IROS 1996](/Publications/KarHanTan1996Virtual.pdf) 
+### [Virtual Structures Formation Control](/VirtualStructures) . [IROS 1996](/Publications/KarHanTan1996Virtual.pdf) 
 
 [![](/VirtualStructures/mif_qt4.gif)](/VirtualStructures)
 
