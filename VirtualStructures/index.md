@@ -22,7 +22,7 @@ pages={132-139 vol.1},
 keywords={cooperative systems;digital simulation;intelligent control;mobile robots;motion control;geometric configuration;high precision movement;high-precision cooperative mobile robotic control;robot ensemble;virtual structures;Computer science;Degradation;Force control;Mobile robots;Motion control;Orbital robotics;Robot control;Robot kinematics;Testing;Transportation}, 
 doi={10.1109/IROS.1996.570643}, 
 month={Nov},
-note={\url{https://karhan-tan.github.io/VirtualStructures } }
+note={\url{https://karhantan.com/VirtualStructures } }
 }
 
 @Article{ref:KarHanTan1997High,
@@ -38,7 +38,7 @@ number="4",
 pages="387--403",
 issn="1573-7527",
 doi="10.1023/A:1008814708459",
-note={\url{https://karhan-tan.github.io/VirtualStructures } }
+note={\url{https://karhantan.com/VirtualStructures } }
 }
 ```
 
