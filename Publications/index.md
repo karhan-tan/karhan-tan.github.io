@@ -52,5 +52,6 @@ layout: default
 1.  Yang, Qingxiong; Ahuja, Narendra; Tan, Kar-Han;  Constant time median and bilateral filtering. International Journal of Computer Vision. 112(3):307-318. 2015. [full text](/Publications/KarHanTan2015Constant.pdf)
 1.  Kang, Byeongkeun; Tan, Kar-Han; Tai, Hung-Shuo; Tretter, Daniel; Nguyen, Truong Q;  Hand Segmentation for Hand-Object Interaction from Depth map. arXiv preprint arXiv:1603.02345.  2016. [full text](/Publications/KarHanTan2016Hand.pdf)
 1.  Kang, Byeongkeun; Tan, Kar-Han; Tai, Hung-Shuo; Tretter, Daniel; Nguyen, Truong Q;  Hand Segmentation for Hand-Object Interaction from Depth map. Accepted for publication at IEEE GlobalSIP 2017. [full text](/Publications/KarHanTan2017Hand.pdf)
+1.  Tan, Kar-Han; Lim, Boon Pang; The Artificial Intelligence renaissance: deep learning and the road to human-Level machine intelligence. APSIPA Transactions on Signal and Information Processing, 7, E6. Cambridge University Press, 2018. [doi](https://doi.org/10.1017/ATSIP.2018.6) [full_text](/Publications/KarHanTan2018AI.pdf)
 
 * Semi-automatically generated from [Google Scholar](https://scholar.google.com/citations?hl=en&user=Fz17zgcAAAAJ)
