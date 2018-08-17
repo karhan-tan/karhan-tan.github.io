@@ -54,5 +54,8 @@ layout: default
 1.  Kar-Han Tan, Irwin E Sobel, Mehrban Jam. System and method for video frame sequence control . U.S. Patent [US9413982B2](https://patents.google.com/patent/US9413982B2/en) Priority 2012-02-28, granted 2016-08-09.
 1.  Irwin E. Sobel, Kar-Han Tan. Focus-based touch and hover detection . U.S. Patent [US9477348B2](https://patents.google.com/patent/US9477348B2/en) Priority 2011-04-15, granted 2016-10-25.
 1.  Kar-Han Tan. View projection . U.S. Patent [US9600855B2](https://patents.google.com/patent/US9600855B2/en) Priority 2009-07-11, granted 2017-03-21.
+1.	Kar-Han Tan, Paul W Martin. Camera included in display. U.S. Patent [US9756257B2](https://patents.google.com/patent/US9756257B2/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2014-01-31, granted 2017-09-05. 
+1.	Kar-Han Tan, Bradley Suggs. Projection screen for specularly reflecting light. U.S. Patent [US10003777B2](https://patents.google.com/patent/US10003777B2/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2013-11-21, granted 2018-06-19. 
+
 
 * Semi-automatically generated from [Google Patents](https://patents.google.com/?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&clustered=false&sort=new&num=100)
