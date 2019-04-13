@@ -58,5 +58,8 @@ layout: default
 1.	Kar-Han Tan, Bradley Suggs. Projection screen for specularly reflecting light. U.S. Patent [US10003777B2](https://patents.google.com/patent/US10003777B2/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2013-11-21, granted 2018-06-19. 
 1.  Kar-Han Tan. Image Projection. Taiwan Patent [TWI608737B](https://patents.google.com/patent/TWI608737B/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2014-11-13, granted 2017-12-11.
 1.  Su Wang, Kar-Han Tan, Divya Sharma, Jian Fan, Jinman Kang, Yun Tang, Daniel R Tretter. Image data segmentation. Taiwan Patent [TWI624177B](https://patents.google.com/patent/TWI624177B/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2014-10-28, granted 2018-05-11.
+1.  Divya Sharma, Kar-Han Tan, Daniel R Tretter. Three dimensional object recognition. Taiwan Patent [TWI566204B](https://patents.google.com/patent/TWI566204B/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2014-10-28, grant 2017-01-11.
+1.  Kar-Han Tan, David Bradley Short, Jinman Kang. Method and system for touch point indentification and computer readable medium associated therewith. Taiwan Patent [TWI597487B](https://patents.google.com/patent/TWI597487B/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2014-09-05, grant 2017-09-01.
+
 
 * Semi-automatically generated from [Google Patents](https://patents.google.com/?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&clustered=false&sort=new&num=100)
