@@ -56,6 +56,7 @@ layout: default
 1.  Kar-Han Tan. View projection . U.S. Patent [US9600855B2](https://patents.google.com/patent/US9600855B2/en) Priority 2009-07-11, granted 2017-03-21.
 1.	Kar-Han Tan, Paul W Martin. Camera included in display. U.S. Patent [US9756257B2](https://patents.google.com/patent/US9756257B2/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2014-01-31, granted 2017-09-05. 
 1.	Kar-Han Tan, Bradley Suggs. Projection screen for specularly reflecting light. U.S. Patent [US10003777B2](https://patents.google.com/patent/US10003777B2/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2013-11-21, granted 2018-06-19. 
-
+1.  Kar-Han Tan. Image Projection. Taiwan Patent [TWI608737B](https://patents.google.com/patent/TWI608737B/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2014-11-13, granted 2017-12-11.
+1.  Su Wang, Kar-Han Tan, Divya Sharma, Jian Fan, Jinman Kang, Yun Tang, Daniel R Tretter. Image data segmentation. Taiwan Patent [TWI624177B](https://patents.google.com/patent/TWI624177B/en?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&num=100&sort=new) Priority 2014-10-28, granted 2018-05-11.
 
 * Semi-automatically generated from [Google Patents](https://patents.google.com/?inventor=kar-han+tan,Kar+Han+Tan&status=GRANT&clustered=false&sort=new&num=100)
