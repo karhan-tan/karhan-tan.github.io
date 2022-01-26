@@ -23,6 +23,9 @@ Kar-Han Tan is Founder of Helpful Robotics, currently in stealth mode. Previousl
 
 ## Projects 
 
+### [Robotic Nurse Assistant](https://www.youtube.com/watch?v=V9Vbf4EEzGg)
+[![](/RNA/RNA.jpg)](https://www.youtube.com/watch?v=V9Vbf4EEzGg)
+
 ### [Hardware Accelerated Deep Learning for Unconstrained Face Recognition](/NovuFace)
 [![](/NovuFace/NovuFace.jpg)](/NovuFace)
 
