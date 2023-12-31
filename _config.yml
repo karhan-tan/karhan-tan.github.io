@@ -1,7 +1,7 @@
 theme: minima
 
-title: Kar-Han Tan's Home Page - karhantan.com
-email: karhan.tan@ieee.org
+title: Kar-Han Tan's Home Page - karhan-tan.github.io
+email: karhan@helpful-robotics.com
 description: > # this means to ignore newlines until "baseurl:"
   Kar-Han Tan's home page.
 baseurl: "" # the subpath of your site, e.g. /blog
